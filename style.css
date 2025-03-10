@@ -1,0 +1,252 @@
+       
+            @import url('https://fonts.googleapis.com/css2?family=Griffy&family=Mystery+Quest&family=Pacifico&family=Rubik+Vinyl&family=Yellowtail&display=swap');
+            *{
+              margin: 0px;
+              padding:0px;
+            } 
+        body {
+          background-color: rgb(199, 182, 184);
+          height: 200vh;
+          width:100vw;
+        }
+        .navbar {
+          display: flex;
+          justify-content: space-between;
+          
+          width: 100vw;
+        }
+        .nav-items {
+          display: flex;
+          gap: 30px;
+          justify-content: space-evenly;
+          align-items: center;
+        }
+        .nav-items a {
+          text-decoration: none;
+          color: white;
+          font-family: Mystery Quest
+          ;
+        }
+        .navbar h1 {
+          color: white;
+        }
+        .hero{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          
+        }
+       
+        .hero img {
+              width:50vw;
+        }
+  
+        .button-52:after {
+          content: "";
+          background-color: #ffe54c;
+          width: 100%;
+          z-index: -1;
+          position: absolute;
+          height: 100%;
+          top: 7px;
+          left: 7px;
+          transition: 0.2s;
+        }
+        
+        .button-52:hover:after {
+          top: 0px;
+          left: 0px;
+        }
+        
+        @media (min-width: 768px) {
+          .button-52 {
+            padding: 13px 50px 13px;
+          }
+        }  
+        .contact-button{
+          position: relative;
+          left: 40px;;
+        }    
+        .button-52 {
+          font-size: 16px;
+          font-weight: 200;
+          letter-spacing: 1px;
+          padding: 20px 40px 13px;
+          outline: 0;
+          border: 1px solid black;
+          cursor: pointer;
+          position: relative;
+          background-color: rgba(0, 0, 0, 0);
+          user-select: none;
+          -webkit-user-select: none;
+          touch-action: manipulation;
+        }
+        .navbar img{
+          height:100px
+        }
+        .left-nav{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap:20px;
+        }
+        .left-nav h1{
+          font-family: Mystery Quest;
+        }
+        .bestcoffee{
+          font-family: Yellowtail;
+          color:#ffe54c;
+          font-size: 5em;
+          
+        }
+        .hero .sub{
+          font-family:Pacifico;
+          color: white;
+          font-weight: 100;
+        }
+        .hero-left p{
+          color: white;
+          font-family: Pacifico;
+         
+        }
+        .hero-left{
+          position: relative;
+          bottom:100px;
+        }
+        .navbar{
+          position:sticky;
+          background-color: rgb(123, 26, 26) ;
+          top:0px;
+        }
+        .about{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .about img {
+          height:500px;
+          width:500px;
+          border-radius: 50%;
+        }
+        /* General Styling */
+  
+  /* About Section */
+  .about-section {
+      padding: 50px 20px;
+  }
+  
+  /* About Title */
+  .about-title {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+      text-align: center;
+      font-family: Pacifico;
+  }
+  
+  /* Yellow Underline */
+  .underline {
+      width: 80px;
+      height: 4px;
+      background-color: #e2b23a;
+      margin: 0 auto 30px;
+  }
+  
+  /* About Text */
+  .about-text {
+      max-width: 700px;
+      margin: 0 auto 40px;
+      line-height: 1.8;
+      font-family: Yellowtail;
+      font-size: 30px;
+  }
+  
+  /* Social Links */
+  .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+  }
+  
+  /* Icon Styling */
+  .icon img {
+      width: 32px;
+      transition: transform 0.3s ease;
+  }
+  
+  .icon img:hover {
+      transform: scale(1.2);
+  }
+  .about{
+      background-color: white;
+  }
+  .menu{
+      background-color: rgb(38, 34, 34);
+  }
+  .menuh{
+      font-family: Mystery Quest;
+      text-align: center;
+      font-size: 70px;
+      color:white;
+  }
+  .menu-items{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: baseline;
+  }
+  .menu-items .item{
+      width:30vw;
+  }
+  
+  .menu-items img{
+      width:25vw
+  }
+  .menu-items .item h3{
+      color:white;
+      text-align: center;
+      font-family: Yellowtail;
+      font-size: 1.5em;
+  }
+  
+  .menu-items .item p{
+      color:white;
+      text-align: center;
+      font-family: Pacifico;
+  }
+  .container {
+      display: flex;
+      gap: 50px;
+      font-family: Arial, sans-serif;
+      background: #f9f6f6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+  
+  }
+  .info {
+      max-width: 300px;
+  }
+  .info p {
+      margin: 10px 0;
+  }
+  form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+  }
+  input, textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      outline: none;
+  }
+  .container button {
+      padding: 10px 20px;
+      border: 2px solid black;
+      background: white;
+      border-radius: 30px;
+      cursor: pointer;
+  }
